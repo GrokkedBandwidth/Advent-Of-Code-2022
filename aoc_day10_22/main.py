@@ -42,7 +42,7 @@ with open('input.txt', mode='r') as file:
         inc_round(cycle=clock_cycle)
         sprite_check(cycle=clock_cycle, register=register)
         strength.append(clock_check(cycle=clock_cycle, register=register))
-    print(sum(strength))
+    print(f'Total Signal Strength: {sum(strength)}')
 
 for num in range(1, 241):
     screen += sprite_positions[num-1]
