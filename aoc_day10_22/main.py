@@ -45,7 +45,7 @@ with open('input.txt', mode='r') as file:
     print(f'Total Signal Strength: {sum(strength)}')
 
 for num in range(1, 241):
-    screen += sprite_positions[num-1]
+    screen += sprite_positions[num - 1]
     if num % 40 == 0:
         screen += '\n'
 
