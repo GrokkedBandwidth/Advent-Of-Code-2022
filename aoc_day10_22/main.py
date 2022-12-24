@@ -49,12 +49,4 @@ for num in range(1, 241):
     if num % 40 == 0:
         screen += '\n'
 
-print(screen)
-
-
-
-
-
-
-
-
+print(f'\n{screen}')
